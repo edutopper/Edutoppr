@@ -1,0 +1,61 @@
+{
+    "results": [
+      {
+        "question": "What is the capital of France?",
+        "correct_answer": "Paris",
+        "incorrect_answers": ["London", "Berlin", "Madrid"],
+        "category": "Samajik",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "correct_answer": "Harper Lee",
+        "incorrect_answers": ["Mark Twain", "F. Scott Fitzgerald", "Ernest Hemingway"],
+        "category": "English",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the chemical symbol for water?",
+        "correct_answer": "H2O",
+        "incorrect_answers": ["CO2", "O2", "NaCl"],
+        "category": "Science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the chemical symbol for oxygen?",
+        "correct_answer": "02",
+        "incorrect_answers": ["CO2", "H20", "NaCl"],
+        "category": "Science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the chemical symbol for salt?",
+        "correct_answer": "NaCl",
+        "incorrect_answers": ["CO2", "H20", "02"],
+        "category": "Science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Who painted the Mona Lisa?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": ["Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+        "category": "English",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the powerhouse of the cell?",
+        "correct_answer": "Mitochondria",
+        "incorrect_answers": ["Nucleus", "Ribosome", "Endoplasmic reticulum"],
+        "category": "Science",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Formula to calculate Pressure",
+        "correct_answer": "P=F/A",
+        "incorrect_answers": ["P=F", "P=A", "P=F*A"],
+        "category": "Science",
+        "difficulty": "medium"
+      }
+    ]
+  }
+  

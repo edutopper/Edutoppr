@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container div {
+    width: 100%;
+    margin: 0px;
+}
+
+#ad-left,
+#ad-right {
+    width: 25%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center;
+    align-items: center;
+}
+
+  #pdf-viewer {
+    width: 50%;
+    display: grid;
+    flex-direction: column; /* Change flex direction to column */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    overflow-y: auto;
+}
+
+#pdf-viewer::-webkit-scrollbar {
+    display: none;
+}
+
+#pdf-viewer canvas {
+  max-width: 100%; /* Ensure the canvas doesn't exceed the container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+/* Ensure all elements take full width */
+#ad-left,
+#ad-right,
+#pdf-viewer {
+    box-sizing: border-box;
+    padding-left: calc((100vw - 100%) / 2); /* Compensate for left padding */
+    padding-right: calc((100vw - 100%) / 2); /* Compensate for right padding */
+}
+
